@@ -1,0 +1,120 @@
+body {
+  font-family: Roboto;
+  background-color: #f2f2f2;
+  background-image: url(Weeb/dance.gif);
+  background-size: height: 800px, width: 800px;
+  
+ }
+
+
+ 
+h1 {
+	float: middle;
+	color: green
+}
+
+#container {
+height: 500px;
+width: 500px;
+transform: translateX(80%) translateY(10%);
+box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+box-shadow: 0 8px 30px -8px #000;
+background-color: white;
+}
+
+p {
+  padding-left: 20px;
+  color: red;
+
+}
+
+form input[type="text"] {
+  width=90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#billamount {
+  font-size: 14px;
+  background-color: #white;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#peopleamount {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #white;
+  font-size: 14px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+
+button {
+  text-transform: uppercase;
+   background: brown; 
+   width: 110px;
+   padding: 10px;
+   font-size: 15px;
+   color: white;
+   border: none;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -o-border-radius: 5px;
+   border-radius: 5px;
+   border-bottom: solid 3px #111;
+   transform: translateX(15%) 
+}
+
+button:hover {
+  background: red;
+  
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  text-align: bottom;
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -50px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
