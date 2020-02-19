@@ -9,10 +9,6 @@ function calculateTip() {
     return;
   }
 
-  if (billamount = "uwu") {
-    document.body.style.backgroundImage = "url('Weeb/tenor.gif')"
-  }
-
   if (numOfPeople === "" || numOfPeople <= 1) {
     numOfPeople = 1;
     document.getElementById("each").style.display = "none";
